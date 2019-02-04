@@ -15,70 +15,74 @@
     <header>
         <h1>the code review</h1>
     </header>
-<main>
-    <div class="container">
+    <main>
+        <div class="container">
 
-        <h2 id="signup">signup for our settler</h2>
-        <p>Get the latest news on how your code doing right in your inbox</p>
+            <h2 id="signup">signup for our settler</h2>
+            <p>Get the latest news on how your code doing right in your inbox</p>
 
 
-        <form action="index.html" method="post" class="top_form">
-            <div class="info">
-                <fieldset class="contact_info">
+            <form action="index.html" method="post" class="top_form">
+                <div class="info">
+                    <fieldset class="contact_info">
 
-                    <legend>Contact Information</legend>
-                    <div class="contact_info">
-                        <label for="name" class="user_label">Full Name</label>
-                        <input type="text" id="name" name="user_name" class="user_input" placeholder="Required" required>
-                    </div>
-                    <div class="contact_info">
-                        <label for="email" class="user_label">email address</label>
-                        <input type="email" id="email" name="user_email" class="user_input" placeholder="Required" required>
-                    </div>
-                    <div class="contact_info">
-                        <label for="phone" class="user_label">Phone number</label>
-                        <input type="tel" id="phone" name="user_phone" class="user_input" placeholder="566-874-1111">
-                    </div>
-                    <div class="contact_info">
-                        <label for="address" class="user_label">Street address</label>
-                        <input type="text" id="address" name="user_address" class="user_input" placeholder="10847 132 ST Nw">
-                    </div>
+                        <legend>Contact Information</legend>
+                        <div class="contact_info">
+                            <label for="name" class="user_label">Full Name</label>
+                            <input type="text" id="name" name="user_name" class="user_input" placeholder="Required" required>
+                        </div>
+                        <div class="contact_info">
+                            <label for="email" class="user_label">Email Address</label>
+                            <input type="email" id="email" name="user_email" class="user_input" placeholder="Required" required>
+                        </div>
+                        <div class="contact_info">
+                            <label for="phone" class="user_label">Phone Number</label>
+                            <input type="tel" id="phone" name="user_phone" class="user_input" placeholder="566-874-1111">
+                        </div>
+                        <div class="contact_info">
+                        <label for="occupation" class="user_occupation">Occupation</label>
+                        <input type="text" id="occupation" name="user_occupaton" class="user_input" placeholder="Front End Web Developer">
+                        </div>
+                        <div class="contact_info">
+                            <label for="address" class="user_label">Street Address</label>
+                            <input type="text" id="address" name="user_address" class="user_input" placeholder="10847 132 ST Nw">
+                        </div>
 
-                    <div class="contact_info">
-                        <label for="city" class="user_label">city</label>
-                        <input type="text" id="city" name="user_city" class="user_input" placeholder="Edmonton">
-                    </div>
+                        <div class="contact_info">
+                            <label for="city" class="user_label">City</label>
+                            <input type="text" id="city" name="user_city" class="user_input" placeholder="Edmonton">
+                        </div>
 
-                    <div class="contact_info">
-                        <label for="state" class="user_label">State</label>
-                        <select id="state" name="user_state" class="user_input">
-                            <optgroup label="State">
-                                <option disabled selected value="Select">Choose State</option>
-                                <option value="Alberta"> Alberta </option>
-                                <option value="British Columbia">British Columbia</option>
-                                <option value="Labrador"> Labrador</option>
-                                <option value="Manitoba"> Manitoba</option>
-                                <option value="New Brunswick"> New Brunswick</option>
-                                <option value="Newfoundland"> Newfoundland</option>
-                                <option value="Nova Scotia"> Nova Scotia</option>
-                                <option value="Ontario"> Ontario</option>
-                                <option value="Prince Edward Is">Prince Edward Is</option>
-                                <option value="Quebec"> Quebec</option>
-                                <option value="Saskatchewen"> Saskatchewen</option>
-                                <option value="Yukon">Yukon </option>
-                            </optgroup>
-                        </select>
+                        <div class="contact_info">
+                            <label for="state" class="user_label">State</label>
+                            <select id="state" name="user_state" class="user_input">
+                                <optgroup label="State">
+                                    <option disabled selected value="Select">Choose State</option>
+                                    <option value="Alberta"> Alberta </option>
+                                    <option value="British Columbia">British Columbia</option>
+                                    <option value="Labrador"> Labrador</option>
+                                    <option value="Manitoba"> Manitoba</option>
+                                    <option value="New Brunswick"> New Brunswick</option>
+                                    <option value="Newfoundland"> Newfoundland</option>
+                                    <option value="Nova Scotia"> Nova Scotia</option>
+                                    <option value="Ontario"> Ontario</option>
+                                    <option value="Prince Edward Is">Prince Edward Is</option>
+                                    <option value="Quebec"> Quebec</option>
+                                    <option value="Saskatchewen"> Saskatchewen</option>
+                                    <option value="Yukon">Yukon </option>
+                                </optgroup>
+                            </select>
 
-                    </div>
-                    <div class="contact_info">
-                        <label for="zip_code" class="user_label">zip code</label>
-                        <input type="text" id="zip_code" name="user_state" class="user_input" placeholder="t5g 4d3">
-                    </div>
-                </fieldset>
-            </div>
-        </form>
-        <hr>
-                 <fieldset>
+                        </div>
+                        <div class="contact_info">
+                            <label for="zip_code" class="user_label">Zip Code</label>
+                            <input type="text" id="zip_code" name="user_state" class="user_input" placeholder="t5g 4d3">
+                        </div>
+                    </fieldset>
+                </div>
+            </form>
+            <hr>
+            <fieldset>
                 <legend>Newsletter</legend>
                 <label class="user_label">select the newsletter you would like to recieve</label>
                 <div class="news">
@@ -92,7 +96,7 @@
                     <label for="javascript_news">Javascript News</label>
                 </div>
             </fieldset>
-    <fieldset>
+            <fieldset>
                 <legend>Newsletter Format</legend>
                 <input type="radio" id="html_format" name="user_format">
                 <label for="html_format">Html</label>
@@ -101,12 +105,12 @@
                 <label for="plain_text">Plain text</label>
                 <br><br>
                 <label>Other topic you'd like to hear about</label>
-                <textarea placeholder="Message"></textarea>
+                <textarea placeholder="Comment"></textarea>
                 <input type="button" value="sign up">
             </fieldset>
-        </form>
+            </form>
 
-    </div>
+        </div>
     </main>
     <footer>
         <h4>&copy; copyright the code review</h4>
