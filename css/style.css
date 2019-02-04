@@ -66,13 +66,26 @@ p {
     border-right: solid 5px #808080;
     font-style: italic;
 }
-input::placeholder {
-    text-align: right;
-    padding-right: 25px;
+
+::placeholder{
     font-size: 1.2rem;
     font-style: italic;
-    color: #808080;
+   color: #c0c0c0;
+    padding-left: 10px;
 }
+#email::placeholder {
+    text-align: right;
+    padding-right: 20px;
+    font-size: 1.2rem;
+    font-style: italic;
+}
+#name::placeholder{
+    text-align: right;
+    padding-right: 20px;
+    font-size: 1.2rem;
+    font-style: italic;
+}
+
 #zip_code{
     width: 30%;
 }
@@ -92,7 +105,7 @@ fieldset legend {
     padding: 30px 0;
     letter-spacing: 2px;
 }
-form label {
+fieldset label{
     font-size: 1.25em;
     color: #808080;
 }
@@ -117,7 +130,7 @@ textarea {
     border-bottom: solid 6px #5f9ea0;
     border-right: solid 5px #808080;
 }
-button {
+input[type="button"] {
     font-family: 'Staatliches', cursive;
     width: 100%;
     color: white;
@@ -127,7 +140,7 @@ button {
     border: 0;
     font-size: 1.5em
 }
-button:hover {
+input:hover[type="button"] {
 
     background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, red);
     animation: slidebg .9s linear infinite;

@@ -15,7 +15,7 @@
     <header>
         <h1>the code review</h1>
     </header>
-
+<main>
     <div class="container">
 
         <h2 id="signup">signup for our settler</h2>
@@ -37,16 +37,16 @@
                     </div>
                     <div class="contact_info">
                         <label for="phone" class="user_label">Phone number</label>
-                        <input type="tel" id="phone" name="user_phone" class="user_input">
+                        <input type="tel" id="phone" name="user_phone" class="user_input" placeholder="566-874-1111">
                     </div>
                     <div class="contact_info">
                         <label for="address" class="user_label">Street address</label>
-                        <input type="text" id="address" name="user_address" class="user_input">
+                        <input type="text" id="address" name="user_address" class="user_input" placeholder="10847 132 ST Nw">
                     </div>
 
                     <div class="contact_info">
                         <label for="city" class="user_label">city</label>
-                        <input type="text" id="city" name="user_city" class="user_input">
+                        <input type="text" id="city" name="user_city" class="user_input" placeholder="Edmonton">
                     </div>
 
                     <div class="contact_info">
@@ -72,15 +72,13 @@
                     </div>
                     <div class="contact_info">
                         <label for="zip_code" class="user_label">zip code</label>
-                        <input type="text" id="zip_code" name="user_state" class="user_input">
+                        <input type="text" id="zip_code" name="user_state" class="user_input" placeholder="t5g 4d3">
                     </div>
                 </fieldset>
             </div>
         </form>
         <hr>
-
-        <form action="index.html" method="post">
-            <fieldset>
+                 <fieldset>
                 <legend>Newsletter</legend>
                 <label class="user_label">select the newsletter you would like to recieve</label>
                 <div class="news">
@@ -94,10 +92,7 @@
                     <label for="javascript_news">Javascript News</label>
                 </div>
             </fieldset>
-        </form>
-
-        <form action="index.html" method="post">
-            <fieldset>
+    <fieldset>
                 <legend>Newsletter Format</legend>
                 <input type="radio" id="html_format" name="user_format">
                 <label for="html_format">Html</label>
@@ -106,12 +101,13 @@
                 <label for="plain_text">Plain text</label>
                 <br><br>
                 <label>Other topic you'd like to hear about</label>
-                <textarea></textarea>
-                <button>sign up</button>
+                <textarea placeholder="Message"></textarea>
+                <input type="button" value="sign up">
             </fieldset>
         </form>
 
     </div>
+    </main>
     <footer>
         <h4>&copy; copyright the code review</h4>
     </footer>
